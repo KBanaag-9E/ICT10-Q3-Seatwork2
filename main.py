@@ -23,4 +23,4 @@ def check_requirements(e):
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg' height='250px' width='100px'>"
     else:
-        document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
+        document.getElementById("output").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
